@@ -18,10 +18,10 @@
                 <div class="grid grid-cols-2 gap-4 my-5 mx-8">
 
                     <label for="principleamount" class="text-xl flex items-center">Principle Amount: <span class="text-gray-500 mx-1">Rs</span></label>
-                    <input type="number" id="principleamount" name="principleamount" value="${principleamt}" class="w-full p-1 border-2 placeholder-blue-800 border-blue-700 appearance-none rounded-lg focus:outline-none focus:ring-2">
+                    <input type="number" id="principleamount" name="principleamt" value="${principleamt}" class="w-full p-1 border-2 placeholder-blue-800 border-blue-700 appearance-none rounded-lg focus:outline-none focus:ring-2">
 
                     <label for="interest" class="text-xl flex items-center">Interest Rate (Percentage):</label>
-                    <input type="number" id="interest" name="interest" min="1" max="100" value="${interestrate}" class="w-full p-1 border-2 placeholder-blue-800 border-blue-700 appearance-none rounded-lg  focus:outline-none focus:ring-2">
+                    <input type="number" id="interest" name="interestrate" min="1" max="100" value="${interest}" class="w-full p-1 border-2 placeholder-blue-800 border-blue-700 appearance-none rounded-lg  focus:outline-none focus:ring-2">
 
                     <label for="years" class="text-xl flex items-center">No of Years:</label>
                     <input type="number" id="years" name="years" min="1" value="${years}" class="w-full p-1 border-2 placeholder-blue-800 border-blue-700 appearance-none rounded-lg focus:outline-none focus:ring-2">
